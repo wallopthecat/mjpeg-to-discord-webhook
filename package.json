@@ -1,0 +1,25 @@
+{
+  "name": "mjpeg-to-discord-webhook",
+  "version": "0.0.1",
+  "description": "take snapshots from mjpeg stream on interval and post to discord webhook",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "mjpeg-decoder": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallopthecat/mjpeg-to-discord-webhook.git"
+  },
+  "author": "Wallop",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/wallopthecat/mjpeg-to-discord-webhook/issues"
+  },
+  "homepage": "https://github.com/wallopthecat/mjpeg-to-discord-webhook#readme"
+}
